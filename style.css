@@ -1,0 +1,52 @@
+html {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  padding: 20px;
+  font-size: 14px;
+  width: 500px;
+  height: 400px;
+}
+
+.homepage {
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.books {
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  font-size: 14px;
+}
+
+.year {
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.blog_post {
+  padding-bottom: 200px;
+}
+
+a {
+  color: #333;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+::selection {
+  background: #c8f2fb;
+}
